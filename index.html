@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/1.0.8/reseter.min.css"
+      integrity="sha512-w7sMEM5yzmuVP9ic9zpCLk/+whwrrhkH5g83x0wi5DEPo1y+/JniMmCVfbtjw5JipFpcCb4gyF2xLES6tc+TxA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header class="gray header">
+      <div class="container">
+        <nav class="nav">
+          <div class="nav-item">
+            <a href="/" class="logo-link">
+              <img src="images/logo/vector.svg" alt="logo" />
+              <img src="images/logo/web.svg" alt="web" />
+            </a>
+          </div>
+
+          <div class="nav-item">
+            <select name="services" id="services" class="services">
+              <option value="all">Все услуги</option>
+              <option value="seo">SEO предложение</option>
+              <option value="smm">SMM предложение</option>
+              <option value="create">Создание сайтов</option>
+              <option value="ad">Контекстная реклама</option>
+              <option value="copyright">Копирайтинг / рерайтинг</option>
+              <option value="internet-shop">Создание интернет магазина</option>
+            </select>
+
+            <ul class="menu">
+              <li class="menu-item">
+                <a href="agent" class="menu-link">Агентво</a>
+              </li>
+              <li class="menu-item">
+                <a href="portfolio" class="menu-link">Портфолио</a>
+              </li>
+              <li class="menu-item">
+                <a href="rewies" class="menu-link">Отзывы</a>
+              </li>
+              <li class="menu-item">
+                <a href="blog" class="menu-link">Блог</a>
+              </li>
+              <li class="menu-item">
+                <a href="contacts" class="menu-link">Контакты</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="nav-item">
+            <div class="tel-info">
+              <img
+                src="images/icons/whatsup.svg"
+                class="tel-image"
+                alt="whatsup"
+              />
+              <a
+                class="tel-number"
+                href=" https://api.whatsapp.com/send? phone=+77072021313"
+                class="tel"
+                >+7 (707) 202 13 13</a
+              >
+            </div>
+
+            <button class="button-primary">Коньсултация</button>
+          </div>
+        </nav>
+
+        <div class="decoration">
+          <div class="small-circle item-right"></div>
+          <div class="promo-item item-left"></div>
+        </div>
+        <section class="promo">
+          <h1 class="promo-title">Агентство полного цикла</h1>
+          <div class="promo-decoration">
+            <div class="promo-item item-1"></div>
+            <div class="promo-item item-2"></div>
+            <div class="promo-item item-3"></div>
+            <div class="promo-item item-4"></div>
+            <div class="promo-item-long item-5"></div>
+            <div class="promo-item item-6"></div>
+            <div class="big-circle item-7"></div>
+            <div class="promo-item item-8"></div>
+            <div class="promo-item item-9"></div>
+          </div>
+
+          <div class="promo-serviceses">
+            <button class="button-transparent promo-service">
+              SEO продвижение
+            </button>
+            <button class="button-transparent promo-service">
+              SMM продвижение
+            </button>
+            <button class="button-transparent promo-service">
+              Создание сайтов
+            </button>
+            <button class="button-transparent promo-service">
+              Контекстная реклама
+            </button>
+            <button class="button-transparent promo-service">
+              Копирайтинг / рерайтинг
+            </button>
+            <button class="button-transparent promo-service">
+              Создание интернет магазина
+            </button>
+          </div>
+
+          <div class="box promo-offer">
+            <p class="promo-offer-text">
+              Получайте на <span class="bold">300%</span> больше потенциальных
+              клиентов всего через <span class="bold">2 месяца</span>, используя
+              технологию <span class="bold">продвижения</span> Эльбрус
+            </p>
+
+            <form action="POST" class="promo-form">
+              <div class="form-group">
+                <label for="site">Адрес вашего сайта</label>
+                <input type="url" id="site" name="site" />
+              </div>
+              <div class="form-group">
+                <label for="tel">Телефон</label>
+                <input type="tel" id="tel" name="tel" />
+              </div>
+              <div class="form-group">
+                <button class="button-transparent">Получить предложение</button>
+                <span class="rights">
+                  Отправляя заявку, вы соглашаетесь<br />
+                  с <a href="#" class="yellow">условиями</a> передачи
+                  информации.
+                </span>
+              </div>
+            </form>
+
+            <div class="dots">
+              <div class="dot checked"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+
+            <div class="promo-offer-decor"></div>
+          </div>
+        </section>
+
+        <section class="description">
+          <div class="description-decoration"></div>
+        </section>
+      </div>
+    </header>
+  </body>
+</html>
