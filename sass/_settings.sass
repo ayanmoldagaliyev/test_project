@@ -1,0 +1,49 @@
+*, *::before, *::after
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+@mixin reset-list
+  list-style: none
+
+.container
+  max-width: 1180px
+  margin: 0 auto
+
+@mixin flex
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+@mixin gray
+  background-color: #E5E5E5
+
+@mixin box
+  border-radius: 40px
+  padding: 0 18px
+  @include flex
+  height: 40px
+  color: #fff
+@mixin border
+  border-radius: 100px
+  border-bottom-right-radius: 0px
+a
+  text-decoration: none
+
+button
+  outline-style: none
+  border: none
+body
+  font-family: 'Montserrat', sans-serif
+  font-size: 14px
+.button
+  &-primary
+    @include box
+
+.bold
+  font-weight: 700
+
+@mixin big
+  @include box
+  padding: 0 30px
+  height: 50px

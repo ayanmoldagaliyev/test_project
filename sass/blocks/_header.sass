@@ -1,0 +1,120 @@
+.header
+  @include gray
+  padding-top: 16px
+  padding-bottom: 176px
+  &__nav
+    height: 40px
+  &__button
+    @include box
+    background-color: $color-1
+    color: #fff
+  .nav
+    @include flex
+    margin-bottom: 188px
+    &__item
+      height: 100%
+      @include flex
+      &:nth-child(2)
+        width: 566px
+  .logo
+    &__link
+      @include flex
+  .menu
+    @include reset-list
+    @include flex
+    width: 407px
+    &__link
+      color: #000
+  .select__service
+    max-width: 134px
+    @include box
+    color: #000
+    padding-right: 32px
+    appearance: none
+    background: url(../images/icons/arrow.svg) no-repeat right
+    background-position-x: calc( 100% - 21px)
+    background-position-y: calc( 100% - 15px )
+    border: 1px solid #000
+    font-weight: 700
+  .phone
+    &__block
+      @include flex
+      margin-right: 29px
+    &__image
+      margin-right: 14px
+    &__number
+      color: #000
+  .promo
+    &__wrap
+      @include flex
+      justify-content: start
+      flex-wrap: wrap
+      width: 755px
+      margin: -4px -5px
+      margin-bottom: 109px
+    &__button
+      @include big
+      color: #000
+      border: 1px solid #000
+      margin: 4px 5px
+    &__title
+      width: 628px
+      font-weight: 700
+      font-size: 60px
+      line-height: 70px
+      margin-bottom: 47px
+  .offer
+    width: 979px
+    height: 480px
+    @include border
+    background: $color-2
+    padding: 99px 121px 81px 121px
+    display: block
+    &__text
+      width: 738px
+      font-size: 30px
+      line-height: 40px
+      margin-bottom: 49px
+      color: #fff
+    .rights
+      color: #fff
+      display: block
+      width: 263px
+      font-size: 12px
+      line-height: 15px
+      .yellow
+        color: $color-3
+    &__form
+      @include flex
+      align-items: flex-start
+      margin-bottom: 75px
+    .form
+      &-lebel
+        font-size: 18px
+        color: #fff
+      &-input
+        background: transparent
+        border: none
+        border-bottom: 1px solid #fff
+        width: 100%
+        height: 30px
+      &-group
+        height: 50px
+        &:nth-child(1)
+          width: 246px
+        &:nth-child(2)
+          width: 182px
+      &-button
+        @include big
+        background: transparent
+        border: 1px solid #fff
+        margin-bottom: 14px
+    .dot
+      display: inline-block
+      width: 5px
+      height: 5px
+      border-radius: 100%
+      background-color: #fff
+      margin-right: 15px
+      &:nth-child(1)
+        background-color: $color-3
